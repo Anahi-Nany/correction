@@ -3,10 +3,10 @@ package edu.uaslp.objetos.shoppingcart;
 import java.math.BigDecimal;
 
 public class Item {
-    String itemCode;
-    String providerCode;
-    int quantity;
-    BigDecimal bigDecimal;
+    private String itemCode;
+    private String providerCode;
+    private int quantity;
+    private BigDecimal bigDecimal;
 
 Item (){
 
